@@ -8,6 +8,13 @@ body {
     text-align:center;
 }
 
+.container {
+    width:50%;
+    max-width:600px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
 .header {
     margin-top:4rem;
 }
@@ -17,9 +24,11 @@ body {
     color:black;
     background-color: white;
     border: 1px solid black;
-    height:3rem;
+    height:4rem;
     cursor:pointer;
     border-radius:0.5rem;
+    box-shadow: 5px 5px black;
+    font-size:1rem;
 }
 
 .link-btn:hover {
@@ -32,13 +41,10 @@ body {
 .btn-section {
     margin-top:1rem;
     margin-bottom:1rem;
-    width:50%;
-    margin-left:auto;
-    margin-right:auto;
 }
 
 @media only screen and (max-width: 600px) {
-    .btn-section {
+    .container {
         width:90%;
     }
   }
